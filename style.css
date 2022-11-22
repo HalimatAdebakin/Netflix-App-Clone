@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  /* navbar */
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+  }
+  
+  .navbar-brand {
+    width: 100px;
+    height: 100%;
+  }
+  
+  .navbar-brand img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sign-button {
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .navbar-items {
+    display: flex;
+    gap: 10px;
+  }
+    
+  
