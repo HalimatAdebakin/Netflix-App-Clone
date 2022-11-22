@@ -143,4 +143,48 @@
         font-size: 15px;
         letter-spacing: 1px;
       }
-  
+
+  /* second section */
+  /* feature 1 */
+.feature {
+  border-top: 8px solid #222;
+  padding: 2rem 1rem;
+}
+
+.feature-details {
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.feature-sub-title {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.feature-image-container {
+  width: 100%;
+  position: relative;
+}
+.feature-image {
+  width: 100%;
+}
+
+.feature-background-video-container {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  left: 13%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  z-index: -2;
+}
+
+.feature-background-video {
+  width: 100%;
+}
